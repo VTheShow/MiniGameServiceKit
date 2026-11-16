@@ -1,0 +1,20 @@
+{
+    "name": "com.vts.minigameservicekit",
+    "references": [
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "Newtonsoft.Json",
+        "Wx",
+        "com.bytedance.ttsdk.ref",
+        "TTLitJson"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

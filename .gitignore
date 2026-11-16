@@ -1,0 +1,15 @@
+# Unity 临时产物（包被引入工程后 Unity 会在包内生成 .meta——那些必须入库，勿忽略 meta）
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+.vs/
+.idea/
+*.csproj
+*.sln
+*.user
+.DS_Store
+
+# WorkBuddy AI 工作记忆（AI 助手本地使用，不属于项目代码）
+.workbuddy-ai/

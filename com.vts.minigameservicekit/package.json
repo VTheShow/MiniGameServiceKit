@@ -1,0 +1,26 @@
+{
+  "name": "com.vts.minigameservicekit",
+  "version": "0.1.0",
+  "displayName": "MiniGame Service Kit",
+  "description": "多平台小游戏 SDK 工具\n统一接口 + 条件编译工厂 + Mock 兜底，覆盖广告/内购支付/登录/存档/合规(隐私+实名)/分享社交(游戏圈/客服/关注)，附支付下单云函数示例与全套文档。平台 SDK（微信转换SDK/StarkSDK）由各游戏工程按需安装。",
+  "unity": "2022.3",
+  "documentationUrl": "https://github.com/VTheShow/MiniGameServiceKit/blob/main/README.md",
+  "changelogUrl": "https://github.com/VTheShow/MiniGameServiceKit/blob/main/com.vts.minigameservicekit/CHANGELOG.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VTheShow/MiniGameServiceKit.git"
+  },
+  "author": {
+    "name": "VTS"
+  },
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.2"
+  },
+  "samples": [
+    {
+      "displayName": "微信支付下单云函数示例",
+      "description": "虚拟支付下单签名云函数示例与部署教程（微信虚拟支付必需，含 createOrder/index.js）",
+      "path": "Samples~/Docs/cloudfunctions"
+    }
+  ]
+}
